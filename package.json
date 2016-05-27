@@ -8,6 +8,7 @@
     "angular-route": "^1.5.5",
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
+    "lodash": "^4.13.1",
     "path": "^0.12.7"
   },
   "scripts": {
