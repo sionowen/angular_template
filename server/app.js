@@ -2,9 +2,11 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var path = require('path');
-// var pg = require('pg');
-// var connectionString = 'postgres://localhost:5432/mu';
+var pg = require('pg');
+var connectionString = 'postgres://localhost:5432/mu';
 var routes = require('./router/routes');
+
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 

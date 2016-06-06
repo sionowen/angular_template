@@ -14,12 +14,3 @@ myApp.config(['$routeProvider', function($routeProvider) {
       redirectTo: 'home'
     })
 }]);
-
-var drinks = [
-  { 'name': 'Coke', 'quantity': 2 },
-  { 'name': 'Red Bull', 'quantity': 6 }
-];
-
-var currentDrinks = _.pluck(drinks, 'name');
-console.log("this ran", currentDrinks);
-// → [‘Coke’, ‘Red Bull’]
